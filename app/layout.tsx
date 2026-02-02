@@ -56,9 +56,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bereket – Developer & Creative Writer",
     description:
-      "Building clean, human-centered digital experiences with code, design, and words.",
+      "Developer and creative writer building meaningful digital products through code, design, and storytelling.",
     creator: "@bereketA",
-    images: ["/og-image.png"],
+    images: "/og-image.png",
   },
 
   icons: {

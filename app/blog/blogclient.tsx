@@ -44,7 +44,7 @@ export default function BlogListClient({ blogs = [] }: { blogs: Blog[] }) {
       {/* Hero Section */}
       <section className="relative w-full h-[450px] md:h-[400px] mb-16">
         <Image
-          src="/blog-page.jpg"
+          src="/blog-banner.jpg"
           alt="The Inkwell"
           fill
           className="object-cover opacity-60"
