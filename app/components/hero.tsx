@@ -109,7 +109,7 @@ export function Hero() {
                   Age: 35 (Old Nigga)
                 </span>
                 {/* Top Right */}
-                <span className="absolute top-4 right-4">Virgo</span>
+                <span className="absolute top-4 right-4">Capricorn</span>
                 {/* Bottom Left */}
                 <span className="absolute bottom-4 left-4 text-gray-500">
                   Height: 1.75m (Sexy Boy)
