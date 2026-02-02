@@ -20,16 +20,7 @@ export const metadata: Metadata = {
   description:
     "Bereket is a software developer and creative writer crafting clean, user-focused digital experiences.",
 
-  keywords: [
-    "Bereket",
-    "Software Developer",
-    "Web Developer",
-    "Mobile App Developer",
-    "Creative Writer",
-    "UI UX Designer",
-    "Portfolio",
-    "Next.js Developer",
-  ],
+  keywords: ["Bereket", "Software Developer", "Creative Writer", "Portfolio"],
 
   authors: [{ name: "Bereket" }],
   creator: "Bereket",
@@ -38,11 +29,11 @@ export const metadata: Metadata = {
     title: "Bereket – Developer & Creative Writer",
     description:
       "Developer and creative writer building meaningful digital products through code, design, and storytelling.",
-    url: "https://bekidev.com",
+    url: "https://bek-dev.vercel.app",
     siteName: "Bereket A.",
     images: [
       {
-        url: "/og-image.png", // 1200x630 recommended
+        url: "/bek-preview.png", // 1200x630 recommended
         width: 1200,
         height: 630,
         alt: "Bereket – Developer & Creative Writer",
@@ -57,7 +48,7 @@ export const metadata: Metadata = {
     title: "Bereket – Developer & Creative Writer",
     description:
       "Developer and creative writer building meaningful digital products through code, design, and storytelling.",
-    images: "[/og-image.png]",
+    images: "[/bek-preview.png]",
   },
 
   icons: {
@@ -66,7 +57,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
 
-  metadataBase: new URL("https://bekidev.com"),
+  metadataBase: new URL("https://bek-dev.vercel.app"),
 };
 
 export default function RootLayout({

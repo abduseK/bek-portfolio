@@ -29,7 +29,7 @@ export default function BlogListClient({ blogs = [] }: { blogs: Blog[] }) {
         <div className="max-w-6xl mx-auto">
           <Link
             href="/"
-            className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors group"
+            className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors group mb-5"
           >
             <ArrowLeft
               size={18}

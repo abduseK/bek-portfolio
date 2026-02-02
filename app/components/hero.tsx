@@ -68,8 +68,17 @@ export function Hero() {
             designers, product teams, and stakeholders to deliver reliable,
             production-ready solutions.
             <br />
-            <br />I am driven by clean system design, clear documentation, and
-            building technology that is practical, scalable, and built to last.
+            <br />I write occasionally, often inspired by{" "}
+            <strong className="text-white">
+              classical literature and reflective thought.
+            </strong>{" "}
+            You can explore my essays and writings on the{" "}
+            <Link
+              href="/blog"
+              className="text-white underline decoration-gray-500 underline-offset-4 hover:decoration-white transition-all"
+            >
+              blog.
+            </Link>
           </p>
 
           <div className="flex flex-wrap gap-3">
@@ -90,17 +99,53 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="flex flex-col items-center"
         >
-          <div className="relative w-full aspect-[4/5] md:aspect-square max-w-sm rounded-2xl overflow-hidden border border-white/10 p-2 bg-[#111]">
-            <div className="relative w-full h-full rounded-xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
-              <Image
-                src="/bek.jpeg"
-                alt="Ab Adam"
-                fill
-                className="object-cover"
-              />
+          <div className="relative w-full aspect-[4/5] md:aspect-square max-w-sm rounded-2xl overflow-hidden border border-white/10 p-2 bg-black flex items-center justify-center">
+            {/* The Image Container */}
+            <div className="relative w-full h-full rounded-xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 group flex items-center justify-center bg-black">
+              {/* 1. Corner Information Labels */}
+              <div className="absolute inset-0 z-30 p-4 pointer-events-none font-mono text-[9px] uppercase tracking-[0.2em] text-white/40">
+                {/* Top Left */}
+                <span className="absolute top-4 left-4">
+                  Age: 35 (Old Nigga)
+                </span>
+                {/* Top Right */}
+                <span className="absolute top-4 right-4">Virgo</span>
+                {/* Bottom Left */}
+                <span className="absolute bottom-4 left-4 text-gray-500">
+                  Height: 1.75m (Sexy Boy)
+                </span>
+                {/* Bottom Right */}
+                <span className="absolute bottom-4 right-4 text-gray-500 text-right max-w-[80px] leading-tight">
+                  Addis Ababa
+                </span>
+              </div>
+
+              {/* 2. The Internal Grid/Dashed Borders */}
+              <div className="absolute top-8 left-0 w-full h-[1px] border-t border-dashed border-white/20 z-20" />
+              <div className="absolute bottom-8 left-0 w-full h-[1px] border-t border-dashed border-white/20 z-20" />
+              {/* Left vertical line: Anchored 8 from top AND 8 from bottom */}
+              <div className="absolute top-8 bottom-8 left-8 w-[1px] border-l border-dashed border-white/20 z-20" />
+
+              {/* Right vertical line: Anchored 8 from top AND 8 from bottom */}
+              <div className="absolute top-8 bottom-8 right-8 w-[1px] border-l border-dashed border-white/20 z-20" />
+              {/* 3. The Image - Centered and Transparent */}
+              <div className="relative w-[85%] h-[85%] z-10 flex items-center justify-center">
+                <Image
+                  src="/bek-trs.png"
+                  alt="Bereket Atakilt"
+                  fill
+                  className="object-contain"
+                  priority
+                />
+
+                {/* 4. The Gray Bottom Gradient Overlay */}
+                <div className="absolute inset-0 z-15 pointer-events-none bg-gradient-to-t from-zinc-800/50 via-transparent to-transparent opacity-90" />
+              </div>
+
+              {/* 5. Final blending layer to merge with the black container */}
+              <div className="absolute inset-0 bg-gradient-to-t from-white/10 via-transparent to-transparent z-25 pointer-events-none opacity-80" />
             </div>
           </div>
-
           {/* Centered Social Icons and Modal Trigger */}
           <div className="flex mt-8 gap-6 text-gray-500 items-center justify-center">
             {/* <a

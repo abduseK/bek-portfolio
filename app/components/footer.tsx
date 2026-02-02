@@ -40,6 +40,13 @@ export function Footer() {
           >
             GitHub
           </a>
+          <a
+            href="https://beki-123.substack.com"
+            target="_blank"
+            className="hover:text-white transition-colors"
+          >
+            Substack
+          </a>
         </div>
 
         {/* Right: Signature */}

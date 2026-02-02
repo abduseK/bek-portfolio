@@ -114,12 +114,15 @@ export default async function BlogDetail({ params }: BlogProps) {
 
       {/* Content Section */}
       <section className="max-w-3xl mx-auto px-6 py-24">
+        <h1 className="text-lg font-serif mb-8 italic leading-tight max-w-5xl">
+          {blog.title}
+        </h1>
         <article
-          className="prose prose-invert prose-lg 
+          className="prose prose-invert prose-lg text-gray-400
           prose-headings:font-serif prose-headings:italic prose-headings:font-semibold
           prose-p:text-gray-300 prose-p:leading-relaxed prose-p:mb-8
           prose-blockquote:border-l-white/20 prose-blockquote:text-gray-400 prose-blockquote:italic prose-blockquote:bg-white/5 prose-blockquote:py-2 prose-blockquote:pr-4
-          max-w-none"
+          max-w-none text-lg"
         >
           {blog.body && <PortableText value={blog.body} />}
         </article>
