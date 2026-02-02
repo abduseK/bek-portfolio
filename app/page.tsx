@@ -12,7 +12,7 @@ export default function Home() {
       {/* flex-grow: takes up all remaining space between Header and Footer
         flex items-center: vertically centers the Hero/Experience 
       */}
-      <main className="flex-grow max-w-6xl mx-auto px-6 md:px-12 flex flex-col justify-center w-full">
+      <main className="flex-grow max-w-6xl mx-auto px-0 md:px-12 flex flex-col justify-center w-full">
         <div className="w-full space-y-12">
           {/* Hero Section */}
           <Hero />

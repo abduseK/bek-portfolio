@@ -21,7 +21,7 @@ export function Hero() {
   const cvUrl = "/CV.pdf";
 
   return (
-    <section className="pt-32 pb-20 mx-auto max-w-6xl py-12 px-10 sm:px-0">
+    <section className="pt-32 pb-20 mx-auto max-w-6xl py-12 px-6 sm:px-0">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         {/* Left Side: Text Content */}
         <motion.div

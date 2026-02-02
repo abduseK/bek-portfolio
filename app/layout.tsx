@@ -57,8 +57,7 @@ export const metadata: Metadata = {
     title: "Bereket – Developer & Creative Writer",
     description:
       "Developer and creative writer building meaningful digital products through code, design, and storytelling.",
-    creator: "@bereketA",
-    images: "/og-image.png",
+    images: "[/og-image.png]",
   },
 
   icons: {
