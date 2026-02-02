@@ -33,7 +33,7 @@ export function Hero() {
           <h1 className="text-5xl mb-6 md:text-7xl font-serif leading-[0.85] md:leading-[0.8] tracking-tighter">
             Bereket Atakilt <br />
             <span className="italic text-gray-500 font-light text-2xl md:text-4xl inline-block mt-2">
-              Developer & Creative Writer
+              Developer & Creative Writter
             </span>
           </h1>
           <p className="text-gray-400 text-lg leading-relaxed mb-8 max-w-lg">
