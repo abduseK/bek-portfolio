@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <nav className="fixed top-2 w-full z-50 border-b border-white/5 bg-black/50 backdrop-blur-md">
+    <nav className="fixed top-3 w-full z-50 border-b border-white/5 bg-black/50 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-12 h-16 flex items-center justify-between">
         <Link
           href="/"
