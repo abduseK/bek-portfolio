@@ -57,7 +57,7 @@ export function Hero() {
             <br />
             Currently, I work as a{" "}
             <strong className="text-white">
-              Tech Lead and Backend Engineer at Cilondis
+              Tech Lead and Backend Engineer at Cilondis{" "}
             </strong>
             and serve as a{" "}
             <strong className="text-white">
@@ -104,19 +104,14 @@ export function Hero() {
             <div className="relative w-full h-full rounded-xl overflow-hidden grayscale hover:grayscale-0 transition-all duration-700 group flex items-center justify-center bg-black">
               {/* 1. Corner Information Labels */}
               <div className="absolute inset-0 z-30 p-4 pointer-events-none font-mono text-[9px] uppercase tracking-[0.2em] text-white/40">
-                {/* Top Left */}
-                <span className="absolute top-4 left-4">
-                  Age: 35 (Old Nigga)
+                {/* Top Centered Info */}
+                <span className="absolute top-4 left-1/2 -translate-x-1/2 whitespace-nowrap">
+                  Works at: Cilondis
                 </span>
-                {/* Top Right */}
-                <span className="absolute top-4 right-4">Capricorn</span>
-                {/* Bottom Left */}
-                <span className="absolute bottom-4 left-4 text-gray-500">
-                  Height: 1.75m (Sexy Boy)
-                </span>
-                {/* Bottom Right */}
-                <span className="absolute bottom-4 right-4 text-gray-500 text-right max-w-[80px] leading-tight">
-                  Addis Ababa
+
+                {/* Bottom Centered Info */}
+                <span className="absolute bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap text-gray-500">
+                  Addis Ababa, Ethiopia
                 </span>
               </div>
 
